@@ -1,0 +1,15 @@
+.sortby-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;  
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+.sbLeft, .sbRight {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+}

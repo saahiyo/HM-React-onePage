@@ -1,0 +1,83 @@
+.nav {
+  padding: 23px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navLeft {
+  display: flex;
+  align-items: center;
+  gap: 33px;
+}
+svg:hover {
+  cursor: pointer;
+  fill: #515151;
+  transition: 0.3s;
+  color: #515151;
+}
+.navLeft svg {
+  width: 30px;
+  height: 30px;
+}
+.navLeft ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+}
+.navLeft ul svg {
+  width: 20px;
+  height: 20px;
+}
+.navRight {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.navRight img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  filter: brightness(130%);
+}
+.navRight p {
+  font-size: 30px;
+  font-weight: 600;
+  font-style: italic;
+}
+.navRight svg {
+  width: 20px;
+  height: 20px;
+}
+.topnav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f8f7f6;
+  text-transform: uppercase;
+  width: 100%;
+}
+.topright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding-right: 10px;
+}
+.topright p {
+  font-size: 18px;
+}
+.offer {
+  color: #000000;
+  font-size: 18px;
+  line-height: 16px;
+  padding: 10px;
+  text-transform: uppercase;
+}
+/* .brandname {
+  font-size: 20px;
+  font-weight: 600;
+  font-style: italic;
+  color: #E50010;
+} */
